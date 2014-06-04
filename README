@@ -1,0 +1,10 @@
+Secure service for managing documents
+
+This project implements a secure service for managing documents in a company
+containing different departments. 
+The system consists in a server, a certification authority and multiple clients
+that can upload or download documents depending on their permissions on
+different documents. 
+All the connections are SSL(Secure Sockets Layer) using signed certificates
+by my own implementation of certification authority.
+All three programs can be run using the ant build file.
